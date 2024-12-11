@@ -6,10 +6,9 @@ from telegram.ext import (
     filters,
     CallbackContext,
 )
-import os
 
 # Token de bot (debe ser almacenado de manera segura)
-TOKEN = '7593679019:AAHCSuzxkkVG6PSHaicWVYuh0yequ_x-5jc'
+TOKEN = '7893328381:AAECEXZX9_9ijPAtYGNM_7nq54wbRszot4s'
 # Mensajes y opciones
 START_MESSAGE = "¡Hola! Soy tu bot de Telegram. Selecciona una opción:"
 
