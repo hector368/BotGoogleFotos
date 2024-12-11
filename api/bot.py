@@ -5,9 +5,6 @@ from api.bot_utils import *
 from api.bot_commands import *
 from api.bot_file_search import *
 
-# Cargar las variables de entorno
-
-
 # Configuración de OpenAI
 openai.api_key = OPENAI_API_KEY
 
