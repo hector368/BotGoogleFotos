@@ -2,6 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext
 from api.bot_autentification import *
 from api.bot_utils import *
+from api.bot_file_search import get_drive_folders
 
 
 # Comando /start

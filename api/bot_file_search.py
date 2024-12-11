@@ -3,6 +3,7 @@ from telegram.ext import CallbackContext
 from api.bot_autentification import *
 from api.bot_utils import *
 from api.bot_commands import *
+from api.bot_file_search import *
 
 
 def search_photos(service, query):
