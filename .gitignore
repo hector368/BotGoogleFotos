@@ -1,3 +1,5 @@
 
 api/credentials.json
 api/.env
+__pycache__/
+*.pyc

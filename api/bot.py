@@ -8,14 +8,13 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, CallbackContext
 
 
-TOKEN = '7966290995:AAEuiOwbqma94aDFOBCK9Y8NXBYyNWl5Wgg'
 
 # Mensajes y opciones
 START_MESSAGE = "¡Hola! Soy tu bot de Telegram. Selecciona una opción:"
 
 
 # Tokens de API
-TELEGRAM_TOKEN = ''
+TELEGRAM_TOKEN = '7966290995:AAEuiOwbqma94aDFOBCK9Y8NXBYyNWl5Wgg'
 OPENAI_API_KEY = ''
 CREDENTIALS_FILE = os.path.join(os.path.dirname(__file__), 'credentials.json')
 
