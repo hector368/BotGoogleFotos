@@ -1,6 +1,7 @@
 import os
 import openai
 import pickle
+from dotenv import load_dotenv
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -8,8 +9,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, CallbackContext
 
 # Tokens de API
-TELEGRAM_TOKEN = ''
-OPENAI_API_KEY = ''
+load_dotenv()
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+OPENAI_API_KEY = os.getenv("OPEN")
 CREDENTIALS_FILE = os.path.join(os.path.dirname(__file__), 'credentials.json')
 
 # Configuración de OpenAI
